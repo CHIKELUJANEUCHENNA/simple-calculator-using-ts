@@ -8,7 +8,7 @@
   width: 700px;
   height: 700px;
   padding: 20px;
-  border: 2px solid silver; 
+  /* border: 2px solid silver;  */
   margin: 100px 400px;
   border: none;
 }
@@ -49,8 +49,59 @@
 }
 
 .color{
-  background-color: #f87a44;
-  background-image: linear-gradient(315deg, #f87f4a 0%, #ec9f05 74%);
-  
+  background-color: #eebda9;
+  background-image: linear-gradient(315deg, #ebd2c7 0%, #e7d5b3 74%);
+  border-radius: 10px;
+}
 
+.signupStyle{
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 680px;
+  height: 600px;
+  padding: 20px;
+  margin: 100px 400px;
+  background-color: rgb(78, 77, 77);
+}
+
+.inputStyle {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ font-size: large;
+}
+
+.submitStyle{
+  cursor: pointer;
+  background-color: #10c016;
+  color: white;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.labelStyle{
+  color: white;
+  text-align: center;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+.loginStyle{
+  width: 680px;
+  height: 100%;
+}
+.display{
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
 }
